@@ -11,7 +11,7 @@ from mp_algorithms.RRT.rrt import *
 
 def main():
     
-    str_bounds = [0, 10, 0, 20] 
+    str_bounds = [1, 10, 0, 20] 
     start = [5,0]
     goal = [5,20]
     obstacleList = [(7.5, 5, 1.5)]  # [x, y, radius]
